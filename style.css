@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center; /*centro da tela da esq para a dir*/
+    justify-content: center; /*centro da tela de cima para baixo*/
+    gap: 10vh; /*distancia do semaforo aos botoes*/
+}
+
+button{
+
+    width: 80px; /* largura dos botoes*/
+    height: 32px; /* altura dos botoes*/
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin-right: 12px; /*adiciona margem à direita de cada botão para afastá-los um do outro*/
+    border: none;
+    background-color:#785d9a;
+    font-family: Arial, Helvetica, sans-serif
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6A05A8;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    color: #6A05A8;
+  
+}
+
+footer{
+    color: #6A05A8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
